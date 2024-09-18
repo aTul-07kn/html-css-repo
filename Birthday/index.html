@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-DAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="month-data">
+            <label for="month-inp">Enter Month</label>
+            <input type="number" id="month-inp">
+            <button onclick="handleByMonth()">Find By month</button>
+        </div>
+
+        <div class="year-data">
+            <label for="year-inp">Enter Year</label>
+            <input type="number" id="year-inp">
+            <button onclick="handleByYear()">Find By Year</button>
+        </div>
+
+        <div class="today-data">
+            <label>Find todays Birthday</label>
+            <button onclick="todayBday()">Find today</button>
+        </div>
+
+        <!-- <input type="reset"> -->
+
+    </div>
+
+    <div id="output-container">
+    
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
